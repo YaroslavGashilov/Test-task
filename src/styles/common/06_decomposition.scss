@@ -1,0 +1,31 @@
+footer {
+  padding-top: 112px;
+}
+
+.footer__text {
+  margin: 0 397px 0px 323px;
+  padding-bottom: 96px;
+}
+
+.footer__blocks {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 323px;
+}
+
+.footer__tasks {
+  margin-right: 114px;
+  margin-bottom: 72px;
+  flex: 40%;
+}
+
+.task_border {
+  font-family: 'ProximaNova-Regular';
+  border-bottom: solid 1px #fff;
+  padding-bottom: 24px;
+  cursor: pointer;
+}
+
+.tasks-text {
+  margin-top: 24px;
+}

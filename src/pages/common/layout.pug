@@ -1,0 +1,19 @@
+doctype html 
+html(lang='ru')
+   block head  
+      head  
+         meta(charset='utf-8')
+         title Test
+         meta(content='width=device-width, initial-scale=1' name='viewport')
+         meta(content='ie=edge' hhttp-equiv='x-ua-compatible')
+         link(rel='stylesheet' href='./css/main.css')
+   block body
+      body
+         block site 
+            include 01_header
+            include 02_milliart
+            include 03_quote 
+            include 04_video-content
+            include 05_task 
+            include 06_decomposition
+         script(src='./src/scripts/burger.js')    

@@ -1,0 +1,25 @@
+.quote-container {
+   margin: 195px 323px 153px;
+   display: flex;
+   padding:64px 56px;
+   background:linear-gradient(270deg, rgba(239, 236, 229, 0.08) 0%, rgba(239, 236, 229, 0) 100%);
+   border-radius: 48px;
+   backdrop-filter: blur(30px);
+}
+
+.avatar {
+   width: 179px;
+   height: 179px;
+   margin-right: 40px;
+}
+
+.quote-name {
+   margin-bottom: 32px;
+}
+
+.qoute {
+   margin-bottom: 24px;
+   &:last-child {
+      margin-bottom: 0px;
+   }
+}

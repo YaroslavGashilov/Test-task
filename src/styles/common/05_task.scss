@@ -1,0 +1,47 @@
+.task {
+  padding-top: 160px;
+}
+
+.task__content {
+  padding-bottom: 112px;
+}
+
+.hover-effect {
+  opacity: 0.5;
+  cursor: pointer;
+  &:hover {
+    opacity: 1;
+    transition: 0.7s;
+  }
+}
+
+.task__text-link {
+  font-weight: 600;
+  font-size: 56px;
+  line-height: 70px;
+}
+
+.task__title {
+  display: flex;
+  align-items: center;
+}
+
+.task__text {
+  margin: 0 323px;
+  padding-bottom: 96px;
+  border-bottom: solid 1px #efece5;
+}
+
+.intend-tittle {
+  padding-left: 232px;
+  margin-bottom: 72px;
+}
+
+.intent-link {
+  margin-right: 40px;
+}
+
+.task__font {
+  font-size: 38px;
+  line-height: 49px;
+}

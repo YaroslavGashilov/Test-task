@@ -1,0 +1,16 @@
+.screen {
+  position: relative;
+  padding: 167px 0 183px;
+  height: 1115px;
+}
+
+.screen-one {
+  padding-left: 104px;
+}
+
+.screen-two {
+  position: absolute;
+  right: 70px;
+  top: 568px;
+  z-index: -1;
+}

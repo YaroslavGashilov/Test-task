@@ -1,0 +1,79 @@
+.milliart {
+  padding: 144px 0 197px;
+}
+
+.milliart__content {
+  display: flex;
+  align-items: baseline;
+  padding-bottom: 171px;
+}
+
+.milliart__img {
+  display: flex;
+  flex-direction: column;
+}
+
+.milliart__logo {
+  margin: 0 32px 84px 104px;
+  width: 96px;
+  height: 96px;
+}
+
+.divider {
+  height: 1px;
+  width: 96px;
+  margin-left: 97px;
+}
+
+.milliart__title {
+  margin-bottom: 21px;
+}
+
+.milliart__tags-group {
+  padding-left: 232px;
+}
+
+.tag {
+  position: relative;
+  cursor: pointer;
+  border-bottom: 1px solid #7a7a7a;
+  margin-right: 48px;
+  &:last-child {
+    margin-right: 0px;
+  }
+  opacity: 0.9;
+  font-size: 28px;
+  line-height: 36px;
+  &:hover {
+    color: #fff;
+    border-bottom: 1px solid transparent;
+    transition: 0.5s;
+  }
+}
+
+path {
+  visibility: hidden;
+}
+
+.ellipse {
+  position: absolute;
+  top: -70px;
+  left: 15px;
+  &:hover .ellipse-path {
+    visibility: visible;
+    stroke-dasharray: 1000;
+    stroke-dashoffset: 1000;
+    animation: dash 1s linear forwards;
+    &:hover {
+      @keyframes dash {
+        from {
+          stroke-dashoffset: 822;
+        }
+        to {
+          stroke-dashoffset: 0;
+        }
+      }
+    }
+  }
+}
+

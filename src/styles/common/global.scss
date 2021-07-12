@@ -1,0 +1,100 @@
+@import '../common/font/fonts.scss';
+
+::-webkit-scrollbar-button {
+  background-image: url('');
+  background-repeat: no-repeat;
+  width: 10px;
+  height: 0px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #efece5;
+}
+
+::-webkit-scrollbar-thumb {
+  -webkit-border-radius: 0px;
+  border-radius: 0px;
+  background-color: #7a7a7a;
+  &:hover {
+    background-color: #7a7a7a;
+  }
+}
+
+::-webkit-resizer {
+  background-image: url('');
+  background-repeat: no-repeat;
+  width: 4px;
+  height: 0px;
+}
+
+::-webkit-scrollbar {
+  width: 4px;
+}
+
+body {
+  margin: 0 auto;
+  max-width: 1920px;
+  background-image: url('../src/img/background.png');
+  background-size: 100%;
+  background-repeat: no-repeat;
+  overflow-x: hidden;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+p,
+a {
+  color: #efece5;
+}
+
+a {
+  font-family: 'ProximaNova-Light';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 23px;
+}
+
+h1 {
+  font-family: 'ProximaNova-Regular';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 128px;
+  line-height: 141px;
+}
+
+h2 {
+  font-family: 'ProximaNova-Regular';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 40px;
+  line-height: 52px;
+}
+
+h3 {
+  font-family: 'ProximaNova-Semibold';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 32px;
+  line-height: 42px;
+}
+
+p {
+  font-family: 'ProximaNova-Light';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 31px;
+}
+
+span {
+  font-family: 'ProximaNova-Light';
+  font-style: normal;
+  color: #7a7a7a;
+  font-size: 24px;
+  line-height: 36px;
+  font-weight: 300px;
+}
